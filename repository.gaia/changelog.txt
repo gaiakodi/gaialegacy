@@ -1,6 +1,9 @@
 
+[B]6.9.9 (2024.12.16)[/B]
+- Final legacy for version 6.
+
 [B]5.9.9 (2021.10.01)[/B]
-- Final legacy version.
+- Final legacy for version 5.
 
 [B]5.0.0 (2019.06.27)[/B]
 - Major version upgrade.
