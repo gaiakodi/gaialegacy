@@ -22,11 +22,11 @@
 		<forum>http://forum.kodi.tv/showthread.php?tid=257967</forum>
 		<license>Non commercial. See https://github.com/scakemyer/plugin.video.quasar/blob/master/LICENSE</license>
 		<assets>
-			<icon>icon.png</icon>
-			<fanart>fanart.jpg</fanart>
-			<screenshot>resources/screenshots/home.jpg</screenshot>
-			<screenshot>resources/screenshots/movies.jpg</screenshot>
-			<screenshot>resources/screenshots/webui.png</screenshot>
+			<icon>meta/icon.png</icon>
+			<fanart>meta/fanart.jpg</fanart>
+			<screenshot>meta/home.jpg</screenshot>
+			<screenshot>meta/movies.jpg</screenshot>
+			<screenshot>meta/webui.png</screenshot>
 		</assets>
 	</extension>
 </addon>
