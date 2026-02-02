@@ -1,6 +1,8 @@
 
-[B]6.9.9 (2024.12.16)[/B]
-- Final release for version 6.
+[B]7.0.0 (2024.12.20)[/B]
+- Major version upgrade.
+- Updated various icons.
+- Removed some color palettes.
 
 [B]6.4.0 (2023.08.22)[/B]
 - Removed Lightpack icons.
