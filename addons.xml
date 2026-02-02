@@ -5468,20 +5468,66 @@
 		<assets>
 			<icon>icon.png</icon> <!-- Do not change file name. Required by older Kodi versions. -->
 			<fanart>fanart.jpg</fanart> <!-- Do not change file name. Required by older Kodi versions. -->
-			<screenshot>resources/media/screenshots/screenshot01.jpg</screenshot>
-			<screenshot>resources/media/screenshots/screenshot02.jpg</screenshot>
-			<screenshot>resources/media/screenshots/screenshot03.jpg</screenshot>
-			<screenshot>resources/media/screenshots/screenshot04.jpg</screenshot>
-			<screenshot>resources/media/screenshots/screenshot05.jpg</screenshot>
-			<screenshot>resources/media/screenshots/screenshot06.jpg</screenshot>
-			<screenshot>resources/media/screenshots/screenshot07.jpg</screenshot>
-			<screenshot>resources/media/screenshots/screenshot08.jpg</screenshot>
-			<screenshot>resources/media/screenshots/screenshot09.jpg</screenshot>
-			<screenshot>resources/media/screenshots/screenshot10.jpg</screenshot>
+			<screenshot>meta/screenshot01.jpg</screenshot>
+			<screenshot>meta/screenshot02.jpg</screenshot>
+			<screenshot>meta/screenshot03.jpg</screenshot>
+			<screenshot>meta/screenshot04.jpg</screenshot>
+			<screenshot>meta/screenshot05.jpg</screenshot>
+			<screenshot>meta/screenshot06.jpg</screenshot>
+			<screenshot>meta/screenshot07.jpg</screenshot>
+			<screenshot>meta/screenshot08.jpg</screenshot>
+			<screenshot>meta/screenshot09.jpg</screenshot>
+			<screenshot>meta/screenshot10.jpg</screenshot>
 		</assets>
 	</extension>
 </addon>
 
+<addon id="script.gaia.resources" version="7.1.0" name="Gaia Resources" provider-name="Gaia">
+	<requires>
+	</requires>
+	<extension point="xbmc.python.module" />
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Gaia Resources</summary>
+		<description lang="en">Essential resources, icons, skins, and windows for Gaia.</description>
+		<disclaimer lang="en">Gaia and its developers are not affiliated with Kodi or any of the services used in the addon. Gaia and its developers do not create, host, or distribute any of the content displayed in the addon. Gaia simply searches publicly available sources for content. Gaia is, and always will be, free and open-source. None of its code or resources may be sold or redistributed for commercial purposes.</disclaimer>
+
+		<platform>all</platform>
+		<license>GPL 3.0</license>
+
+		<website>https://gaiakodi.com</website>
+		<forum>https://gaiakodi.com/support</forum>
+
+		<assets>
+			<icon>meta/icon.png</icon>
+			<clearlogo>meta/clearlogo.png</clearlogo>
+			<fanart>meta/fanart.jpg</fanart>
+			<banner>meta/banner.jpg</banner>
+		</assets>
+	</extension>
+</addon>
+<addon id="script.gaia.resources" version="7.0.0" name="Gaia Resources" provider-name="Gaia">
+	<requires>
+	</requires>
+	<extension point="xbmc.python.module" />
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Gaia Resources</summary>
+		<description lang="en">Essential resources, icons, skins, and windows for Gaia.</description>
+		<disclaimer lang="en">Gaia and its developers are not affiliated with Kodi or any of the services used in the addon. Gaia and its developers do not create, host, or distribute any of the content displayed in the addon. Gaia simply searches publicly available sources for content. Gaia is, and always will be, free and open-source. None of its code or resources may be sold or redistributed for commercial purposes.</disclaimer>
+
+		<platform>all</platform>
+		<license>GPL 3.0</license>
+
+		<website>https://gaiakodi.com</website>
+		<forum>https://gaiakodi.com/support</forum>
+
+		<assets>
+			<icon>meta/icon.png</icon>
+			<clearlogo>meta/clearlogo.png</clearlogo>
+			<fanart>meta/fanart.jpg</fanart>
+			<banner>meta/banner.jpg</banner>
+		</assets>
+	</extension>
+</addon>
 <addon id="script.gaia.resources" version="6.4.0" name="Gaia Resources" provider-name="Gaia">
 	<requires>
 	</requires>
@@ -5685,16 +5731,16 @@
 		<assets>
 			<icon>icon.png</icon>
 			<fanart>fanart.jpg</fanart>
-			<screenshot>resources/media/screenshots/screenshot01.jpg</screenshot>
-			<screenshot>resources/media/screenshots/screenshot02.jpg</screenshot>
-			<screenshot>resources/media/screenshots/screenshot03.jpg</screenshot>
-			<screenshot>resources/media/screenshots/screenshot04.jpg</screenshot>
-			<screenshot>resources/media/screenshots/screenshot05.jpg</screenshot>
-			<screenshot>resources/media/screenshots/screenshot06.jpg</screenshot>
-			<screenshot>resources/media/screenshots/screenshot07.jpg</screenshot>
-			<screenshot>resources/media/screenshots/screenshot08.jpg</screenshot>
-			<screenshot>resources/media/screenshots/screenshot09.jpg</screenshot>
-			<screenshot>resources/media/screenshots/screenshot10.jpg</screenshot>
+			<screenshot>meta/screenshot01.jpg</screenshot>
+			<screenshot>meta/screenshot02.jpg</screenshot>
+			<screenshot>meta/screenshot03.jpg</screenshot>
+			<screenshot>meta/screenshot04.jpg</screenshot>
+			<screenshot>meta/screenshot05.jpg</screenshot>
+			<screenshot>meta/screenshot06.jpg</screenshot>
+			<screenshot>meta/screenshot07.jpg</screenshot>
+			<screenshot>meta/screenshot08.jpg</screenshot>
+			<screenshot>meta/screenshot09.jpg</screenshot>
+			<screenshot>meta/screenshot10.jpg</screenshot>
 		</assets>
 	</extension>
 </addon>
