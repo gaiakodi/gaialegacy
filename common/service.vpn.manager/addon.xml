@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="service.vpn.manager" name="VPN Manager for OpenVPN" version="7.0.3" provider-name="Zomboided">
+<addon id="service.vpn.manager" name="VPN Manager for OpenVPN" version="7.0.4" provider-name="Zomboided">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
 	</requires>
