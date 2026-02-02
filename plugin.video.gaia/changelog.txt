@@ -1,6 +1,161 @@
 
-[B]6.9.9 (2024.12.16)[/B]
-- Final release for version 6.
+[B]7.1.4 (2025.03.12)[/B]
+- Updated user agents for Cloudflare.
+
+[B]7.1.3 (2025.02.03)[/B]
+- Fixed Arrivals menu for subsequent seasons.
+
+[B]7.1.2 (2025.02.03)[/B]
+- Fixed Arrivals menu for subsequent seasons.
+- Fixed some studio icons.
+- Improved settings cleanup process.
+- Added concurrency execution delay.
+- Updated binge rating process.
+
+[B]7.1.1 (2025.02.02)[/B]
+- Improved progress icons and labels.
+- Improved playback progress tracking.
+- Improved activity interactions for shows.
+- Improved Arrivals menu for season releases.
+- Improved sorting for subsequent seasons.
+- Improved rewatch tracking.
+- Fixed Quick menu duplicates.
+- Changed label formatting setting.
+- Changed default label attribute.
+- Added Arctic Reloaded as known skin.
+- Added Arctic Resurrection as known skin.
+- Added label progress format setting.
+- Added label rating format setting.
+- Added separate details settings for menus.
+- Added a new label settings category.
+- Rearrange menus, labels, and interface settings.
+- Added future episode label color setting.
+- Faster switch from rating dialog to binge dialog.
+
+[B]7.1.0 (2025.01.28)[/B]
+- Fixed custom playback process parameters.
+- Fixed internal menu caching.
+- Fixed show pack retrieval.
+- Added TorBox support for ResolveURL.
+- Added TorBox support for Orion.
+- Added EasyDebrid support for Orion.
+- Improved debrid resolving through Orion.
+- Improved Orion authentication process.
+- Added Orion debrid account settings.
+
+[B]7.0.10 (2025.01.20)[/B]
+- Improved Arrivals smart-loading.
+- Added settings for menu icons.
+
+[B]7.0.9 (2025.01.16)[/B]
+- Improved year validation during scraping.
+- Improved title validation during scraping.
+- Improved show number extraction.
+- Improved anime file name validation.
+- Added new anime number extraction rules.
+- Improved various scraping validation rules.
+- Changed Knaben provider main domain.
+
+[B]7.0.8 (2025.01.13)[/B]
+- Fixed some pack numbering issues.
+- Fixed startup service delay.
+- Improved arrivals sorting.
+- Decreased progress ending percentages.
+- Updated progress menu activity indicators.
+
+[B]7.0.7 (2025.01.10)[/B]
+- Increased metadata refresh interval.
+- Adjusted playback percentages in Progress menus.
+- Fixed show menus for skin widgets.
+- Fixed absolute menu paging.
+
+[B]7.0.6 (2025.01.07)[/B]
+- Fixed episode labels in Arrivals menus.
+- Fixed season and show rating dialogs.
+- Added background service delay setting.
+- Removed notification for canceled searches.
+- Fixed search dialog popup on container refresh.
+- Added production info to player details.
+
+[B]7.0.5 (2025.01.04)[/B]
+- Faster title matching during scraping.
+- Fewer aliases used during title matching.
+- Fixed AllDebrid external resolving.
+- Fixed DebridLink external resolving.
+
+[B]7.0.4 (2025.01.02)[/B]
+- Various fixes for Windows.
+- Replaced IFF function for older SQLite versions.
+- Fixed negative timestamp formatting.
+- Fixed Trakt lists for skin widgets.
+
+[B]7.0.3 (2024.12.23)[/B]
+- Fixed ResolveURL authentication.
+
+[B]7.0.2 (2024.12.20)[/B]
+- Fixed reuselanguageinvoker.
+- Fixed cache item copy.
+- Fixed loading issues on empty menus.
+
+[B]7.0.1 (2024.12.20)[/B]
+- Fixed Metadata notifications.
+- Fixed setup wizard extensions.
+- Fixed scraping optimization.
+
+[B]7.0.0 (2024.12.20)[/B]
+- Way too many changes to list them all here.
+- Added database compression support.
+- Implemented proper Trakt sync activities.
+- Improved Trakt history retrieval.
+- Improved Trakt progress retrieval.
+- Improved Trakt rating retrieval.
+- Fixed Trakt show watched list.
+- Improved Trakt local lookup times.
+- Improved binge process for last episode.
+- Fixed dangling playback window.
+- Improved rating dialog responsiveness.
+- Fixed quick menu loader.
+- Added Trakt movie disc releases.
+- Improved IMDb batch requests.
+- Improved TMDb movie disc releases.
+- Improved TMDb season ratings.
+- Improved TMDb API calls.
+- Retrieve various TMDb release dates.
+- Added audio language to list items.
+- Added TMDb images for shows.
+- Added customizable progress menu.
+- Added progress submenus.
+- Added customizable arrivals menu.
+- Added release submenus.
+- Added advanced menu paging.
+- Added advanced menu sorting.
+- Added advanced menu filtering.
+- Fixed subtitles on paused playback.
+- Added TMDb thumbnails for episodes.
+- Added new OpenSubtitles support.
+- Improved skipping intro chapters.
+- Reduced rating and continue dialog timeouts.
+- Fixed rating and continue dialog actions.
+- Fixed offline provider dataset preparation.
+- Improved stream language detection.
+- Redesigned history database and class.
+- Fixed unique identifier generation.
+- Improved batch title matching.
+- Improved audio codec detection.
+- Improved cache background refreshing.
+- Fixed RealDebrid automatic file selection.
+- Improved stream language detection.
+- Improved file name matching against titles.
+- Fixed fonts for OSMC skin.
+- Fixed release language order.
+- Added visibility and order customization for menus.
+- Added shortcuts for kids menu.
+- Fixed IMDb metadata completion.
+- Fixed QR window if the QR image fails.
+- Removed documentary media type.
+- Removed short film media type.
+- Restructured media class.
+- Reduced threads required for scraping.
 
 [B]6.4.4 (2024.03.11)[/B]
 - Hotfix for new YouTube addon settings.

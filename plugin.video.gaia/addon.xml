@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.gaia" version="6.9.9" name="Gaia" provider-name="Gaia">
+<addon id="plugin.video.gaia" version="7.1.4" name="Gaia" provider-name="Gaia">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0" />
 
-		<import addon="script.gaia.resources" version="6.4.0" />
-		<import addon="script.gaia.externals" version="6.4.0" />
+		<import addon="script.gaia.resources" version="7.1.0" />
+		<import addon="script.gaia.externals" version="7.1.2" />
 
-		<import addon="script.gaia.metadata" version="6.1.4" optional="true" />
-		<import addon="script.gaia.binaries" version="6.1.0" optional="true" />
-		<import addon="script.gaia.icons" version="6.4.0" optional="true" />
-		<import addon="script.gaia.skins" version="6.4.0" optional="true" />
+		<import addon="script.gaia.metadata" version="7.0.0" optional="true" />
+		<import addon="script.gaia.binaries" version="7.0.0" optional="true" />
+		<import addon="script.gaia.icons" version="7.0.0" optional="true" />
+		<import addon="script.gaia.skins" version="7.0.0" optional="true" />
 
-		<import addon="repository.gaia.core" version="6.1.0" optional="true" />
-		<import addon="repository.gaia.full" version="6.1.0" optional="true" />
+		<import addon="repository.gaia.core" version="7.0.0" optional="true" />
+		<import addon="repository.gaia.full" version="7.0.0" optional="true" />
 
-		<import addon="script.module.orion" version="4.9.5" />
+		<import addon="script.module.orion" version="5.0.0" />
 
 		<!--
 		PIL is used to generate QR codes.
@@ -33,8 +33,6 @@
 			script.module.resolveurl
 			script.module.urlresolver
 			script.module.addon.signals
-			script.module.universalscrapers
-			script.module.nanscrapers
 		-->
 
 		<import addon="script.module.resolveurl" version="5.0.06" optional="true" />
@@ -48,9 +46,11 @@
 		<import addon="script.embuary.info" version="2.0.8" optional="true" />
 
 		<import addon="plugin.video.youtube" version="6.0.0" optional="true" />
+		<import addon="service.vpn.manager" version="6.0.0" optional="true" />
+		<import addon="resource.images.studios.white" version="0.0.28" optional="true" />
+
 		<import addon="service.upnext" version="1.0.0" optional="true" />
 		<import addon="script.module.addon.signals" version="0.0.1" optional="true" />
-		<import addon="service.vpn.manager" version="6.0.0" optional="true" />
 
 		<!--
 		NB: Do NOT import any of the unstructured external providers.
@@ -98,8 +98,8 @@
 	<extension point="xbmc.addon.metadata">
 		<!-- Changeable through the settings dialog. -->
 		<!-- NB: The XML value here is replaced dynamically by Gaia. -->
-		<!-- NB: If the default value is changed here in the future, read comments in settings.xml (general.performance.invoker). -->
-		<reuselanguageinvoker>false</reuselanguageinvoker>
+		<!-- NB: If the default value is changed here in the future, read comments in settings.xml (general.performance.interpreter). -->
+		<reuselanguageinvoker>true</reuselanguageinvoker>
 
 		<summary lang="en">Stream Movies and Shows</summary>
 		<description lang="en">Stream movies and shows from a variety of sources, such as torrents, usenet, and file hosters. Utilize a diversity of debrid services and sync your playback and history with Trakt.</description>
